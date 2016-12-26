@@ -9537,19 +9537,7 @@ oRes_Cols:=Aclone(aCols0)
 
 Return
 
-********************************************************************************
-Static Function fTrazRes
-********************************************************************************
-Local nPos,aCols0:={}
-
-fObra()
-
-For nPos:=1 to Len(oRes_Cols)
-
-	wObra  		:= oRes_Cols[nPos][Ascan(oDlgRes:aHeader,{|x|AllTrim(x[2])=="ZAA_OBRA"   })]
-	wLocacao	:= oRes_Cols[nPos][Ascan(oDlgRes:aHeader,{|x|AllTrim(x[2])=="ZAA_SEQGUI" })]
-		wObra  		:= oRes_Cols[nPos][Ascan(oDlgRes:aHeader,{|x|AllTrim(x[2])=="ZAA_OBRA"   })]
-	wLocacao	:= oRes_Cols[nPos][Ascan(oDlgRes:aHeader,{|x|AllTrim(x[2])=="ZAA_SEQGUI" })]
+Res_Cols[nPos][Ascan(oDlgRes:aHeader,{|x|AllTrim(x[2])=="ZAA_SEQGUI" })]
 /*	wObra  		:= oRes_Cols[nPos][Ascan(oDlgRes:aHeader,{|x|AllTrim(x[2])=="ZAA_OBRA"   })]
 	wLocacao	:= oRes_Cols[nPos][Ascan(oDlgRes:aHeader,{|x|AllTrim(x[2])=="ZAA_SEQGUI" })]
                                                                                             */
