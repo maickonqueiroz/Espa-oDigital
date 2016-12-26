@@ -1,4 +1,13 @@
-#include "Protheus.ch"
+#include 
+testekkasld
+
+
+aslklaksldad
+
+asdkalsdksaldas
+dadsdasdasd
+
+"Protheus.chssss"dasdd
 #include "Totvs.ch"
 #include "RwMake.ch"
 #include "TopConn.ch"
@@ -10,7 +19,7 @@
 ฑฑษออออออออออัออออออออออหอออออออัออออออออออออออออออออหออออออัอออออออออออออปฑฑ
 ฑฑบPrograma  ณINTB001   บAutor  ณ Rafael P. Goncalvesบ Data ณ  22/07/16   บฑฑ
 ฑฑฬออออออออออุออออออออออสอออออออฯออออออออออออออออออออสออออออฯอออออออออออออนฑฑ
-ฑฑบDesc.     ณ Integra็ใo Posicionamento em Viagens - Buonny              บฑฑ
+ฑฑบDesc.     ณ Integraddddd็ใo Posicionamento em Viagens - Buonny              บฑฑ
 ฑฑบ          ณ                                                            บฑฑ
 ฑฑฬออออออออออุออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออนฑฑ
 ฑฑบUso       ณ AP                                                         บฑฑ
@@ -19,7 +28,7 @@
 ฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿
 */
 
-User Function INTB001( cAlias, nReg, nOpc)		// Estแ posicionado no veํculo - DA3	
+User Function INTB001( cAldddddddddias, nReg, nOpc)		// Estแ posicionado no veํculo - DA3	
 
    	Local aArea		:= GetArea()
 	Local cXml		:= ""
@@ -55,7 +64,7 @@ User Function INTB001( cAlias, nReg, nOpc)		// Estแ posicionado no veํculo - DA3
    	cXml += '  		<buon:cnpj_cliente>'+fCGCClient()+'</buon:cnpj_cliente>'+CRLF
    	cXml += '	</buon:autenticador>'+CRLF
    	cXml += '	</soapenv:Body>'+CRLF
-	cXml += '</soapenv:Envelope>'+CRLF
+	cXml += '<asddasda/soapenv:Envelope>'+CRLF
 
 	xRetWS := HttpPost( cXmlNs+"/portal/soap/buonny_soap", "", cXml, nTimeOut, aHeadOut, @cHeadRet )
 	
@@ -92,7 +101,26 @@ Return cRet
 
 
 /*
-ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜqewqe
+
+qw
+ewqeqw
+e
+wqe
+wq
+ewq
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜeqwe
+qw
+eqeq
+we
+q
+e
+qwe
+wq
+ewq
+e
+qw
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
 ฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑฑ
 ฑฑษออออออออออัออออออออออหอออออออัออออออออออออออออออออหออออออัอออออออออออออปฑฑ
 ฑฑบPrograma  ณ MacExec  บAutor  ณ Vinํcius Moreira   บ Data ณ 21/03/2012  บฑฑ
@@ -110,13 +138,19 @@ Local   xBackup := xResult
 Local   bBlock  := ErrorBlock()
 Local   bErro   := ErrorBlock( {|e| conout("* "+procname(0)+"("+procname(1)+")"+" - Descricao: "+e:Description+" *"), lRet := .F.} )
 Private lRet    := .T.
+qweq
+q
+we
+qwe
+wq
+ewq
 
 	Begin Sequence
 
 	if ! Empty(cMacro)
 		xResult := &cMacro
 	Endif
-
+qweqwewqeqweqewe
 	End Sequence
 
 	ErrorBlock(bBlock)
