@@ -2,7 +2,15 @@
 #INCLUDE "RWMAKE.CH"
 #INCLUDE "PROTHEUS.CH"                                                                                                                               
 #INCLUDE "TOPCONN.CH"                                                                                     
-#INCLUDE "WFPROCESS.CH"        
+#INCLUDE "WFPRO
+as
+dsa
+d
+asd
+asd
+sa
+das
+dCESS.CH"        
 #INCLUDE "TBICONN.CH"
 #INCLUDE "TBICODE.CH"                                                  
 #INCLUDE "FILEIO.CH"  
@@ -11,7 +19,14 @@
 #DEFINE MAXGETDAD 99999
 #DEFINE	CLR_ORANGE	RGB(255,200,100) //Laranja
 #Command @ <nRow>, <nCol> BMPBUTTON TYPE <nType> ACTION <cAction> [OBJECT <oBmt>] [<lEnable:ENABLE>] => [ <oBmt> := ] SButton():New(<nRow>, <nCol>, <nType>, [{|| <cAction>}],,<lEnable>)
-
+                           dasda
+                           
+                           asda
+                           sd
+                           asd
+                           a
+                           das
+                           d
 #Define cCaminho "\Rotas"	// Caminho onde estão armazenados o documentos digitalizados
 
 /*/
