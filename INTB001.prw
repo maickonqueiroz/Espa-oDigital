@@ -1,4 +1,5 @@
-#include "Protheus.ch"
+#include 
+"Protheus.ch"
 #include "Totvs.ch"
 #include "RwMake.ch"
 #include "TopConn.ch"
