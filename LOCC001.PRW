@@ -18,7 +18,11 @@ dCESS.CH"
                
 #DEFINE MAXGETDAD 99999
 #DEFINE	CLR_ORANGE	RGB(255,200,100) //Laranja
-#Command @ <nRow>, <nCol> BMPBUTTON TYPE <nType> ACTION <cAction> [OBJECT <oBmt>] [<lEnable:ENABLE>] => [ <oBmt> := ] SButton():New(<nRow>, <nCol>, <nType>, [{|| <cAction>}],,<lEnable>)
+#Command @ <nRow>, <nCol> BMPBUTTON TYPE
+asd
+oaokaokaksdoakodkasokdkokosakda
+
+ <nType> ACTION <cAction> [OBJECT <oBmt>] [<lEnable:ENABLE>] => [ <oBmt> := ] SButton():New(<nRow>, <nCol>, <nType>, [{|| <cAction>}],,<lEnable>)
                            dasda
                            
                            asda
@@ -9544,7 +9548,14 @@ For nPos:=1 to Len(oRes_Cols)
 
 	wObra  		:= oRes_Cols[nPos][Ascan(oDlgRes:aHeader,{|x|AllTrim(x[2])=="ZAA_OBRA"   })]
 	wLocacao	:= oRes_Cols[nPos][Ascan(oDlgRes:aHeader,{|x|AllTrim(x[2])=="ZAA_SEQGUI" })]
-	
+		wObra  		:= oRes_Cols[nPos][Ascan(oDlgRes:aHeader,{|x|AllTrim(x[2])=="ZAA_OBRA"   })]
+	wLocacao	:= oRes_Cols[nPos][Ascan(oDlgRes:aHeader,{|x|AllTrim(x[2])=="ZAA_SEQGUI" })]
+/*	wObra  		:= oRes_Cols[nPos][Ascan(oDlgRes:aHeader,{|x|AllTrim(x[2])=="ZAA_OBRA"   })]
+	wLocacao	:= oRes_Cols[nPos][Ascan(oDlgRes:aHeader,{|x|AllTrim(x[2])=="ZAA_SEQGUI" })]
+                                                                                            */
+                                                                                            
+                                                                                            
+                                                                                            aSAaA
 	//If cObra == wObra .and. wLocacao == If( Empty( cSeqGru ), cSeqGui, cSeqGru )
 	If cObra == wObra .and. wLocacao == If( Empty( cSeqTra ), cSeqGui, cSeqTra )
 		AAdd(aCols0,Aclone(oRes_Cols[nPos]))
